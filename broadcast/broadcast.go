@@ -10,7 +10,7 @@ package broadcast
 import (
 	"fmt"
 
-	"github.com/chrisbdaemon/beartrap/alert"
+	"./alert"
 )
 
 // Broadcast handles broadcasting alerts from traps to the handlers
