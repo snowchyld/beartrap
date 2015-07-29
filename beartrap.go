@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"./alert"
-	"./broadcast"
-	"./config"
-	"./handler"
-	"./trap"
+	"beartrap/alert"
+	"beartrap/broadcast"
+	"beartrap/config"
+	"beartrap/handler"
+	"beartrap/trap"
 	getopt "github.com/kesselborn/go-getopt"
 )
 
