@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2015, Chris Benedict <chrisbdaemon@gmail.com>
- * All rights reserved.
- *
- * Licensing terms are located in LICENSE file.
- */
-
 package tcptrap
 
 import (
@@ -13,8 +6,8 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/chrisbdaemon/beartrap/config"
-	"github.com/chrisbdaemon/beartrap/config/validate"
+	"./config"
+	"./config/validate"
 )
 
 type trapInterface interface {
