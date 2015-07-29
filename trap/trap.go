@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/chrisbdaemon/beartrap/alert"
-	"github.com/chrisbdaemon/beartrap/config"
-	"github.com/chrisbdaemon/beartrap/config/validate"
-	"github.com/chrisbdaemon/beartrap/trap/tcptrap"
+	"./alert"
+	"./config"
+	"./config/validate"
+	"./trap/tcptrap"
 )
 
 // Interface defines the interface all traps adhere to
