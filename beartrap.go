@@ -13,11 +13,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/chrisbdaemon/beartrap/alert"
-	"github.com/chrisbdaemon/beartrap/broadcast"
-	"github.com/chrisbdaemon/beartrap/config"
-	"github.com/chrisbdaemon/beartrap/handler"
-	"github.com/chrisbdaemon/beartrap/trap"
+	"beartrap/alert"
+	"beartrap/broadcast"
+	"beartrap/config"
+	"beartrap/handler"
+	"beartrap/trap"
 	getopt "github.com/kesselborn/go-getopt"
 )
 
