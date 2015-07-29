@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2015, Chris Benedict <chrisbdaemon@gmail.com>
- * All rights reserved.
- *
- * Licensing terms are located in LICENSE file.
- */
-
 package handler
 
 import (
@@ -12,10 +5,10 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/chrisbdaemon/beartrap/alert"
-	"github.com/chrisbdaemon/beartrap/config"
-	"github.com/chrisbdaemon/beartrap/config/validate"
-	"github.com/chrisbdaemon/beartrap/handler/sysloghandler"
+	"./alert"
+	"./config"
+	"./config/validate"
+	"./handler/sysloghandler"
 )
 
 // Interface defines the interface all handlers adhere to
