@@ -5,10 +5,10 @@ import (
 	"log"
 	"strconv"
 
-	"./alert"
-	"./config"
-	"./config/validate"
-	"./handler/sysloghandler"
+	"github.com/snowchyld/beartrap/alert"
+	"github.com/snowchyld/beartrap/config"
+	"github.com/snowchyld/beartrap/config/validate"
+	"github.com/snowchyld/beartrap/handler/sysloghandler"
 )
 
 // Interface defines the interface all handlers adhere to

@@ -1,16 +1,9 @@
-/*
- * Copyright (c) 2015, Chris Benedict <chrisbdaemon@gmail.com>
- * All rights reserved.
- *
- * Licensing terms are located in LICENSE file.
- */
-
 package broadcast
 
 import (
 	"fmt"
 
-	"./alert"
+	"github.com/snowchyld/beartrap/alert"
 )
 
 // Broadcast handles broadcasting alerts from traps to the handlers

@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2015, Chris Benedict <chrisbdaemon@gmail.com>
- * All rights reserved.
- *
- * Licensing terms are located in LICENSE file.
- */
-
 package sysloghandler
 
 import (
@@ -13,9 +6,9 @@ import (
 	"log/syslog"
 	"strconv"
 
-	"github.com/chrisbdaemon/beartrap/alert"
-	"github.com/chrisbdaemon/beartrap/config"
-	"github.com/chrisbdaemon/beartrap/config/validate"
+	"github.com/snowchyld/beartrap/alert"
+	"github.com/snowchyld/beartrap/config"
+	"github.com/snowchyld/beartrap/config/validate"
 )
 
 type handlerInterface interface {
