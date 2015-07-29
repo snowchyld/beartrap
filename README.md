@@ -1,4 +1,4 @@
-# Beartrap v0.3
+# Beartrap v0.4.snow
 ==============================
 
 [![Build Status](https://drone.io/github.com/snowchyld/beartrap/status.png)](https://drone.io/github.com/snowchyld/beartrap/latest)
