@@ -6,8 +6,8 @@ import (
 	"net"
 	"strconv"
 
-	"./config"
-	"./config/validate"
+	"github.com/snowchyld/beartrap/config"
+	"github.com/snowchyld/beartrap/config/validate"
 )
 
 type trapInterface interface {

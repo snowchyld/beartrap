@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"./alert"
-	"./config"
-	"./config/validate"
-	"./trap/tcptrap"
+	"github.com/snowchyld/beartrap/alert"
+	"github.com/snowchyld/beartrap/config"
+	"github.com/snowchyld/beartrap/config/validate"
+	"github.com/snowchyld/beartrap/trap/tcptrap"
 )
 
 // Interface defines the interface all traps adhere to
